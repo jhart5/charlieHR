@@ -1,4 +1,5 @@
 const User = require("./solution")
+const tapSpec = require("tap-spec")
 const test = require("tape")
 
 tests = [

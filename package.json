@@ -1,0 +1,25 @@
+{
+  "name": "charliehr-tech-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "solution.js",
+  "dependencies": {
+    "tap-spec": "^5.0.0",
+    "tape": "^5.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node solution.test.js | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhart5/charlieHR.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jhart5/charlieHR/issues"
+  },
+  "homepage": "https://github.com/jhart5/charlieHR#readme"
+}
