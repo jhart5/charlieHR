@@ -1,4 +1,4 @@
-
+// define today's date in custom object for ease of use
 today = {
     year: new Date().getFullYear(),
     month: new Date().getMonth(),
@@ -9,14 +9,13 @@ today = {
 class User {
     constructor(name, date_of_birth) {
         this.name = name;
-        this.date_of_birth = {
+        this.date_of_birth = { // again, define DOB in custom object for ease and readability.
             year: date_of_birth.getFullYear(),
             month: date_of_birth.getMonth(),
             date: date_of_birth.getDate(),
         }
     }
 
-    // get current date, put into object for easy reference
     //Returns an Integer representing the user’s current age
     age() {
 
