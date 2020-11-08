@@ -28,7 +28,7 @@ test("User class should output correct birthday date", t => {
     tests.forEach( (date, index) => {
         const result = new User("Test", date).next_birthday()
         const expected = birthdays[index];
-        t.equal(result.toDateString, expected.toDateString, `${result} should be equal to ${expected}`)
+        t.equal(result.toDateString, expected.toDateString, `${result} should be equal to ${expected}`) // must turn objects into strings to compare
     })
     t.end()
 })
